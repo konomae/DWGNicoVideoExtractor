@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/DWGNicoVideoExtractor.svg?style=flat)](http://cocoadocs.org/docsets/DWGNicoVideoExtractor)
 [![Platform](https://img.shields.io/cocoapods/p/DWGNicoVideoExtractor.svg?style=flat)](http://cocoadocs.org/docsets/DWGNicoVideoExtractor)
 
+**DWGNicoVideoExtractor** is a Nico Nico Douga (nicovideo.jp) video URL extractor for iOS.
+
+![Screenshot](Example/DWGNicoVideoExtractor/Screenshot.gif)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
