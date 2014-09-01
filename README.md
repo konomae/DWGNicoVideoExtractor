@@ -46,6 +46,7 @@ NSString *videoID = @"sm23538930";
 ## Restriction
 
 - Supports embedable videos only
+- Does not support iPhone simulator
 
 
 ## TODO
