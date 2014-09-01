@@ -2,9 +2,9 @@ target 'DWGNicoVideoExtractor', :exclusive => true do
   pod "DWGNicoVideoExtractor", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
-  pod "DWGNicoVideoExtractor", :path => "../"
-
-  pod 'Specta', '~> 0.2.1'
-  pod 'Expecta'
-end
+#target 'Tests', :exclusive => true do
+#  pod "DWGNicoVideoExtractor", :path => "../"
+#
+#  pod 'Specta', '~> 0.2.1'
+#  pod 'Expecta'
+#end

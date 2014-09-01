@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 konomae. All rights reserved.
 //
 
+/*
 SpecBegin(InitialSpecs)
 
 describe(@"these will fail", ^{
@@ -41,3 +42,4 @@ describe(@"these will pass", ^{
 });
 
 SpecEnd
+*/
