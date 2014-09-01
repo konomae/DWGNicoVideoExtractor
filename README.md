@@ -25,6 +25,23 @@ it, simply add the following line to your Podfile:
 
     pod "DWGNicoVideoExtractor"
 
+## Example
+
+```objc
+NSString *videoID = @"sm23538930";
+[DWGNicoVideoExtractor fetchVideoURLFromID:videoID completion:^(NSURL *videoURL, NSError *error) {
+    if (error) {
+        NSLog(@"%@", error);
+        return;
+    }
+
+    MPMoviePlayerViewController *vc = [[MPMoviePlayerViewController alloc] initWithContentURL:videoURL];
+    [vc.moviePlayer prepareToPlay];
+    [vc.moviePlayer play];
+    [self presentMoviePlayerViewControllerAnimated:vc];
+}];
+```
+
 
 ## Restriction
 
