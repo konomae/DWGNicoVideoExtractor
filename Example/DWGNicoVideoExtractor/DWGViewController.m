@@ -11,16 +11,15 @@
 #import "DWGViewController.h"
 
 @interface DWGViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
 @implementation DWGViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    
-    [DWGNicoVideoExtractor fetchVideoURLFromID:@"sm23538930" completion:^(NSURL *videoURL, NSError *error) {
+- (IBAction)buttonPressed:(UIButton *)sender {
+    NSString *videoID = self.textField.text;
+    [DWGNicoVideoExtractor fetchVideoURLFromID:videoID completion:^(NSURL *videoURL, NSError *error) {
         if (error) {
             NSLog(@"%@", error);
             return;
