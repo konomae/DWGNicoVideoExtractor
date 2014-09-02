@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                        Nico Nico Douga (nicovideo.jp) Video URL Extractor.
                        DESC
   s.homepage         = "https://github.com/konomae/DWGNicoVideoExtractor"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots      = "https://raw.githubusercontent.com/konomae/DWGNicoVideoExtractor/#{s.version}/Example/DWGNicoVideoExtractor/Screenshot.gif"
   s.license          = 'MIT'
   s.author           = { "konomae" => "konomae@users.noreply.github.com" }
   s.source           = { :git => "https://github.com/konomae/DWGNicoVideoExtractor.git", :tag => s.version.to_s }
